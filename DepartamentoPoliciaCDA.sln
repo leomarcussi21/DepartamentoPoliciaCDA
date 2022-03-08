@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepartamentoPoliciaCDA", "DepartamentoPoliciaCDA\DepartamentoPoliciaCDA.csproj", "{3F97AF5A-1D53-45C1-AFB4-481C04562CA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepartamentoPolicia.Web", "DepartamentoPoliciaCDA\DepartamentoPolicia.Web.csproj", "{3F97AF5A-1D53-45C1-AFB4-481C04562CA6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartamentoPolicia.Application", "DepartamentoPolicia.Application\DepartamentoPolicia.Application.csproj", "{3CAB9760-E776-4876-8A18-12EE11C1593A}"
 EndProject
