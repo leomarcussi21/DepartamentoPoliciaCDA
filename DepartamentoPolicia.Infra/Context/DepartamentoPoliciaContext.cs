@@ -12,6 +12,8 @@ namespace DepartamentoPolicia.Infra.Context
 
         #region DbSet
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<CodigoCriminal> CodigosCriminais { get; set; }
+        public DbSet<Status> Status { get; set; }
 
         #endregion
 

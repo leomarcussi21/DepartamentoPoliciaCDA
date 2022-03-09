@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepartamentoPolicia.Web", "DepartamentoPoliciaCDA\DepartamentoPolicia.Web.csproj", "{3F97AF5A-1D53-45C1-AFB4-481C04562CA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartamentoPolicia.Application", "DepartamentoPolicia.Application\DepartamentoPolicia.Application.csproj", "{3CAB9760-E776-4876-8A18-12EE11C1593A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepartamentoPolicia.Application", "DepartamentoPolicia.Application\DepartamentoPolicia.Application.csproj", "{3CAB9760-E776-4876-8A18-12EE11C1593A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartamentoPolicia.Domain", "DepartamentoPolicia.Domain\DepartamentoPolicia.Domain.csproj", "{796DD8DB-1AD9-43BF-A44C-A3357D849DCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepartamentoPolicia.Domain", "DepartamentoPolicia.Domain\DepartamentoPolicia.Domain.csproj", "{796DD8DB-1AD9-43BF-A44C-A3357D849DCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartamentoPolicia.Infra", "DepartamentoPolicia.Infra\DepartamentoPolicia.Infra.csproj", "{5944FB26-1699-471B-8C1F-0F6E805D0C8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepartamentoPolicia.Infra", "DepartamentoPolicia.Infra\DepartamentoPolicia.Infra.csproj", "{5944FB26-1699-471B-8C1F-0F6E805D0C8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartamentoPolicia.IoC", "DepartamentoPolicia.IoC\DepartamentoPolicia.IoC.csproj", "{6ED69937-79A9-4E88-B44A-13C7EE40FA74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5944FB26-1699-471B-8C1F-0F6E805D0C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5944FB26-1699-471B-8C1F-0F6E805D0C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5944FB26-1699-471B-8C1F-0F6E805D0C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED69937-79A9-4E88-B44A-13C7EE40FA74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED69937-79A9-4E88-B44A-13C7EE40FA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED69937-79A9-4E88-B44A-13C7EE40FA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED69937-79A9-4E88-B44A-13C7EE40FA74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

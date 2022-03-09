@@ -22,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DepartamentoPolicia.Application\DepartamentoPolicia.Application.csproj" />
     <ProjectReference Include="..\DepartamentoPolicia.Domain\DepartamentoPolicia.Domain.csproj" />
   </ItemGroup>
 

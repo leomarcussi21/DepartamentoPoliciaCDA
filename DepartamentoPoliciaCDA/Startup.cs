@@ -1,4 +1,5 @@
 using DepartamentoPolicia.Infra.Context;
+using DepartamentoPolicia.IoC;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -25,6 +26,9 @@ namespace DepartamentoPoliciaCDA
             services.AddControllersWithViews();
 
             services.AddDbContext<DepartamentoPoliciaContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DepartamentoPoliciaDB")).EnableSensitiveDataLogging());
+
+            NativeInjector.RegisterServices(services);
+
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
