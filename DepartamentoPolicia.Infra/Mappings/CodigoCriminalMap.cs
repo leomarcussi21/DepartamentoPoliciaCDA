@@ -31,13 +31,13 @@ namespace DepartamentoPolicia.Infra.Mappings
                 .Property(c => c.StatusId)
                 .IsRequired();
 
-            builder
-                .Property(c => c.DataCriacao)
-                .IsRequired();
+            //builder
+            //    .Property(c => c.DataCriacao)
+            //    .IsRequired();
 
-            builder
-                .Property(c => c.DataAlteracao)
-                .IsRequired();
+            //builder
+            //    .Property(c => c.DataAlteracao)
+            //    .IsRequired();
 
             builder
                 .Property(c => c.IdUsuarioCriacao)

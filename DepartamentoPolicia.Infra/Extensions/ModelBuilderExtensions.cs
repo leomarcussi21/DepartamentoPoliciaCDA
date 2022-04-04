@@ -12,7 +12,7 @@ namespace DepartamentoPolicia.Infra.Extensions
         {
             builder.Entity<Usuario>()
                 .HasData(
-                    new Usuario { Id = Guid.Parse("8a2fee16-6b7c-4743-a3ec-d9b879d3a206"), Nome = "admin", Senha = "@dmin"}
+                    new Usuario { Id = Guid.Parse("8a2fee16-6b7c-4743-a3ec-d9b879d3a206"), Nome = "admin", Senha = "@dmin", DateCreated = DateTime.Now }
                 );
 
             return builder;

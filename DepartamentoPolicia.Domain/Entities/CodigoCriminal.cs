@@ -4,7 +4,7 @@ namespace DepartamentoPolicia.Domain.Entities
 {
     public class CodigoCriminal
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Nome { get; set; }
         public string Descricao { get; set; }
         public decimal Penalidade { get; set; }
